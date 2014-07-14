@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RUL/RulVec.cs">
     <Files>
-      <File FileName="RUL/RulVec.cs" Line="43" Column="95" />
+      <File FileName="RUL/RulVec.cs" Line="58" Column="48" />
       <File FileName="RUL/RulCol.cs" Line="1" Column="1" />
       <File FileName="RUL/RulNoise.cs" Line="1" Column="1" />
     </Files>

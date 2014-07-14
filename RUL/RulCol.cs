@@ -15,7 +15,7 @@ namespace RUL
         #endregion
         #region Public Methods
         /// <summary>
-        /// Returns a completely random, solid color
+        /// Returns a completely random, opaque color
         /// </summary>
         public static Color RandColor()
         {

@@ -44,7 +44,7 @@ namespace RUL
         /// <param name="maxAngle">The greatest possible angle(in radians) between the base vector and the rotated random vector</param>
         public static Vector2 RandVector2(Vector2 baseVector, double maxAngle)
         {
-            float angle = Rul.RandFloat(maxAngle % (float)(2F * Math.PI)) * Rul.RandSign();
+            float angle = Rul.RandFloat((float)maxAngle % (float)(2F * Math.PI)) * Rul.RandSign();
             double cos = Math.Cos(angle);
             double sin = Math.Sin(angle);
             float newX = (float)(baseVector.X * cos - baseVector.Y * sin);

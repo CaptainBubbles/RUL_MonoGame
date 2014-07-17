@@ -11,14 +11,8 @@
         </member>
         <member name="M:RUL.RulCol.RandColor(System.Int32)">
             <summary>
-            Returns a completely random color with the specified alpha value
+            Returns a random, opaque color with the specified lightness
             </summary>
-            /// <param name="alpha">Opacity between 0 and 255</param></member>
-        <member name="M:RUL.RulCol.RandColor(System.Int32,System.Int32)">
-            <summary>
-            Returns a random color with the specified alpha value and lightness
-            </summary>
-            <param name="alpha">Opacity between 0 and 255</param>
             <param name="lightness">Lightness between 0 and 255</param>
             <returns>
             </returns>

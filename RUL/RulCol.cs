@@ -23,23 +23,13 @@ namespace RUL
         }
 
         /// <summary>
-        ///Returns a completely random color with the specified alpha value
+        /// Returns a random, opaque color with the specified lightness
         /// </summary>
-        /// /// <param name="alpha">Opacity between 0 and 255</param>
-        public static Color RandColor(int alpha)
-        {
-            return new Color(Rul.RandInt(255), Rul.RandInt(255), Rul.RandInt(255), alpha);
-        }
-
-        /// <summary>
-        /// Returns a random color with the specified alpha value and lightness
-        /// </summary>
-        /// <param name="alpha">Opacity between 0 and 255</param>
         /// <param name="lightness">Lightness between 0 and 255</param>
         /// <returns></returns>
-        public static Color RandColor(int alpha, int lightness)
+        public static Color RandColor(int lightness)
         {
-            return AdjustLightness(RandColor(alpha), lightness);
+            return AdjustLightness(RandColor(), lightness);
         }
 
         /// <summary>
